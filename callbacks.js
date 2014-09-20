@@ -1,4 +1,11 @@
 //Make the following function calls work
+  
+var giveItName = function(name, cb){
+	var name = prompt("What is your name?");
+	cb(name);
+}
+
+
   giveItName('name', function(){
     alert('Your name is ' + name);
   });
